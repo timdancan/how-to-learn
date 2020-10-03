@@ -130,7 +130,7 @@
 
 
 .digits {
-  margin: 100px 0 ;
+  margin: 100px 0;
 }
 
 .section-title {
@@ -258,7 +258,7 @@
 
 .footer {
   background-color: #1f1f1f;
-  color: white; 
+  color: white;
   min-height: 350px;
 }
 
@@ -267,7 +267,7 @@
   display: flex;
   margin: auto;
   padding-top: 60px;
-  padding-bottom: 40px; 
+  padding-bottom: 40px;
   justify-content: space-between;
   min-height: 250px; /* без этой строчки у меня не получется, я отнял от минимальной высоты падинги */
 }
