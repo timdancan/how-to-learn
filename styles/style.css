@@ -15,7 +15,7 @@
   max-height: 756px;
   display: flex;
   position: relative;
-  background-color: #f2f2f2
+  background-color: #f2f2f2;
 }
 
 .header__logo {
@@ -53,6 +53,11 @@
 
 .header__link {
   text-decoration: none;
+  color: black;
+  transition: color .1s linear;
+}
+
+.header__link:hover {
   color: #2f80ed;
 }
 
@@ -207,6 +212,11 @@
   top: 50%;
   right: 48px;
   text-decoration: none;
+  color: black;
+  transition: color .1s linear;
+}
+
+.feynman__link:hover {
   color: #2f80ed;
 }
 
@@ -268,7 +278,7 @@
   min-height: 250px; /* без этой строчки у меня не получется, я отнял от минимальной высоты падинги */
 }
 
-.footer__column_content_copyright {
+.footer__content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
@@ -304,6 +314,11 @@
 .footer__link {
   color:white;
   text-decoration: none;
+  transition: color .1s linear;
+}
+
+.footer__link:hover {
+  color: #2f80ed;
 }
 
 .footer__column-links {
