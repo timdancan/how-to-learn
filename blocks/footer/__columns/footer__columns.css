@@ -5,5 +5,5 @@
   padding-top: 60px;
   padding-bottom: 40px;
   justify-content: space-between;
-  min-height: 250px; /* без этой строчки у меня не получется, я отнял от минимальной высоты падинги */
+  min-height: 250px;
 }
