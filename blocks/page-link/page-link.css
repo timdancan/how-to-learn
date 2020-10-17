@@ -1,0 +1,8 @@
+.page-link {
+  opacity: 1;
+  transition: opacity .1s linear;
+}
+
+.page-link:hover {
+  opacity: .7;
+}
